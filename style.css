@@ -2,7 +2,7 @@ html {
     background-color: #EFEFEF;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 2em;
     margin: 5% 10%;
 }
 
@@ -18,12 +18,16 @@ p {
 h2 {
     color: #5F0000;
     font-size: 1.5em;
-    text-decoration: underline overline double #5F0000;
+    text-decoration: underline dashed #5F0000;
 }
 
 .caption {
     font-size: 0.75em;
     font-style: italic;
+}
+
+a {
+  color: #5F0000;
 }
 
 /* Styles for larger screens */
