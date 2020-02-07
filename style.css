@@ -26,11 +26,6 @@ article {
   margin: 0% 10% 5% 10%;
 }
 
-img {
-  width: 100%;
-  display: block;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
@@ -72,7 +67,7 @@ h3 { /* 22 px */
 figure {
   color: white;
   background-color: #5F0000;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
   border-radius: 0 0 5% 5%;
 }
 
@@ -80,6 +75,11 @@ figure figcaption {
   text-align: center;
   font-size: 0.75em;
   font-style: italic;
+}
+
+figure img {
+  width: 100%;
+
 }
 
 footer {
@@ -96,6 +96,6 @@ a {
 /* Styles for larger screens */
 @media screen and (min-width: 960px) {
   article {
-    margin: 5% 30%;
+    margin: 0% 20%;
   }
 }
