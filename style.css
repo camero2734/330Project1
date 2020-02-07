@@ -77,6 +77,11 @@ figure figcaption {
   font-style: italic;
 }
 
+figure figcaption i {
+  color: #BBBBBB;
+  font-weight: bold;
+}
+
 figure img {
   width: 100%;
 
